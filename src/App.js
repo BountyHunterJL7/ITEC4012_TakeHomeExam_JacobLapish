@@ -14,6 +14,7 @@ import { Me } from './components/pages/me';
 function App() {
   return (
     <div className="App">
+      <div className='main-website'>
       <Router>
         <Header></Header>
         <Routes>
@@ -22,7 +23,21 @@ function App() {
           <Route exact path="/post" element={<Post/>}></Route>
           <Route path="/me/:id" element={<Me/>}></Route>
         </Routes>
-      </Router>
+      </Router></div>
+      <div class="area" >
+              <ul class="circles">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+              </ul>
+      </div >
     </div>
   );
 }

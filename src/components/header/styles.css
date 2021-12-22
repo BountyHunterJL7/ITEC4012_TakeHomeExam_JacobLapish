@@ -13,6 +13,7 @@
     text-decoration: none;
     color:white;
     margin:10pt;
+    transition: 0.5s;
     
 }
 .title{
@@ -21,7 +22,9 @@
 }
 .button-wrapper:hover{
     cursor: pointer;
+    
     color: #78d0d3;
+    transition: 0.5s;
 }
 .buttonText{
     font-size: 10pt;

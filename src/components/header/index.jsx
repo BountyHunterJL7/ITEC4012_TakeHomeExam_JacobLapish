@@ -32,7 +32,7 @@ export const Header = () => {
     return (
         <div className="header">
                     <Link className="button-wrapper title" to={`/`}>
-                        <h3>The Post</h3>
+                        <h3>Bubble</h3>
                     </Link>
                     <Link className="button-wrapper" to={`/`}>
                         <div className="home"><FontAwesomeIcon icon={faHome} />

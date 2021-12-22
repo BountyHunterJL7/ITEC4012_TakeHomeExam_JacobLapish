@@ -1,3 +1,7 @@
+body{
+    background: transparent;
+}
+
 .post-container{
     align-items: center;
     text-align: center;

@@ -66,7 +66,7 @@ export const HomePage = () => {
             {
               loading && <p>Loading Data...</p>
             }
-    
+              
           </div>
         </div>
       );
