@@ -53,9 +53,10 @@ export const Me = (props) => {
 
         return (
           
-            <div className="individual-wrapper">
+            <div className="home-page">
               <h2>Posts By:</h2>
               <h1>{id}</h1>
+              <div className="post-container">
                 {
                     posts.map((individualPosts) => {console.log(id +"   " + individualPosts.user.stringValue);
                         if (individualPosts.user.stringValue === id){
@@ -69,6 +70,7 @@ export const Me = (props) => {
                         
                     )
                 }
+                </div>
             </div>
             
         );
