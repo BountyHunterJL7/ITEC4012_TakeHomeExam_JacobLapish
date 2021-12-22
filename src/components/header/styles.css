@@ -1,0 +1,35 @@
+.header {
+    background-color: #3f3b51;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    padding-left:35%;
+}
+
+.button-wrapper{
+    text-decoration: none;
+    color:white;
+    margin:10pt;
+    
+}
+.title{
+    margin:0;
+    margin-right:15%;
+}
+.button-wrapper:hover{
+    cursor: pointer;
+    color: #78d0d3;
+}
+.buttonText{
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+    .header{
+        padding-left:5%;
+    }
+  }
