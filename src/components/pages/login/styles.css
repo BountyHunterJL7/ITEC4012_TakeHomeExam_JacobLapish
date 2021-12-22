@@ -15,17 +15,25 @@ input {
     border-radius: 10pt;
 }
 
+input[type=email],input[type=password]{
+    background:transparent;
+    transition: 0.5s;
+    color: #78d0d3;
+    border:solid;
+    border-color: #78d0d3;
+}
+
 input[type=submit] {
     background:#78d0d3;
     border:solid;
-    border-color: white;
+    border-color: #78d0d3;
     color:white;
     cursor: pointer;
     transition: 0.5s;
 }
 
 input[type=submit]:hover{
-    background-color: white;
+    background:transparent;
     transition: 0.5s;
     color: #78d0d3;
     border:solid;
@@ -36,6 +44,17 @@ button {
     height: 50px;
     font-size:1.4rem;
     background:transparent;
+    transition: 0.5s;
+    color: #78d0d3;
+    border:solid;
+    border-color: #78d0d3;
     cursor: pointer;
     border-radius: 10pt;
+}
+button:hover{
+    border-width: 5pt;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
 }

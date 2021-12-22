@@ -4,14 +4,23 @@
     color:white;
     cursor: pointer;
     border:solid;
-    border-color: white;
+    border-color: #78d0d3;
     padding:0 2%;
     transition: 0.5s;
 }
 .post-button:hover{
-    background-color: white;
+    background:transparent;
     transition: 0.5s;
     color: #78d0d3;
     border:solid;
     border-color: #78d0d3;
+}
+
+input[type=text]{
+    background:transparent;
+    transition: 0.5s;
+    color: #78d0d3;
+    border:solid;
+    border-color: #78d0d3;
+    margin-right:5pt;
 }
